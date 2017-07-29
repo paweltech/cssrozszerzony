@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+   <form action="https://formspree.io/pawel5129@wp.pl" method="post">
+    <label for="imie">Imie:</label><br />
+    <input type="text" name="imie" id="imie"><br>
+    <label for="nazwisko">Nazwisko:</label><br />
+    <input type="text" name="nazwisko" id="nazwisko"><br>
+    <label for="email">Email:</label><br />
+    <input type="email" name="email" id="email"><br>
+    <label for="phone">Telefon:</label><br>
+    <input type="tel" placeholder="tylko 9 cyfr" name="telefon" id="phone" pattern="^[0-9]*$" required><br />
+    <label for="place">Wybierz miasto:</label><br>
+    <select id="place">
+        <option value="krakow">Kraków</option>
+        <option value="warszawa">Warszawa</option>
+        <option value="gdansk">Gdańsk</option>
+    </select>
+    <br />
+    <p id="gender">Wybierz płeć:</p>
+    <label for="female">Kobieta</label>
+    <input type="radio" name="gender" value="kobieta" id="female">
+    <label for="male">Mężczyzna</label>
+    <input type="radio" name="gender" value="mezczyzna" id="male"><br />
+
+    
+    <label for="message">Wiadomość:</label><br>
+    <textarea rows="4" cols="40" id="message">Wpisz wiadomość</textarea><br />
+    <input type="checkbox" name="zgoda" value="tak" id="dane-osobowe">
+    <label for="dane-osobowe">Wyrażam zgodę na przetwarzanie danych osobowych:</label><br>
+    
+    <input type="submit" value="send">
+       
+       
+       
+       
+       
+       
+       
+       
+   </form>
+    
+</body>
+</html>
