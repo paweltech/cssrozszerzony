@@ -1,0 +1,12 @@
+p#p4::first-line {
+    content: "tab ";
+    color: red;
+}
+
+a:link {
+    color: orange;
+}
+
+p#p3::selection {
+    background-color: aqua;
+}
