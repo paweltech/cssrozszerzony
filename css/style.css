@@ -10,3 +10,78 @@ a:link {
 p#p3::selection {
     background-color: aqua;
 }
+/* pseudoklasy */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+a:active {
+    color: fuchsia;
+}
+a:focus {
+    color:brown;
+}
+
+#p1 {
+    color:blue;
+}
+
+#p1:target {
+    color: red;
+}
+p:lang(pl) {
+    font-style: italic;
+    color:darkcyan;
+}
+p:lang(en) {
+    color: palevioletred;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    color: orange;
+}
+
+
+
+div.klient:last-child {
+    color:red;
+}
+
+div.klient:only-child {
+    color: forestgreen;
+}
+div.klient:empty {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    
+}
+
+.klient:nth-child(even) {
+    background-color: yellow;
+}
+
+.klient:nth-child(odd) {
+    background-color: lightpink;
+}
+/* jak damy (5n+2) zaznaczy co 5 element począwszy od 2 */
+.klient:nth-child(5n) {
+        background-color: cornflowerblue;
+    }
+}
